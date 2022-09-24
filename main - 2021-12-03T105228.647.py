@@ -19,9 +19,9 @@ else:
         hours = mins // 60
         mins = mins % 60
         print("Time Lapsed = {0}:{1}:{2}".format(int(hours),int(mins),sec))
-    input("Press Enter to start")
+    input("Press Enter to Start Time")
     start_time = time.time()
-    input("Press Enter to stop")
+    input("Press Enter to Stop Time")
     end_time = time.time()
     time_lapsed = end_time - start_time
     time_convert(time_lapsed)
