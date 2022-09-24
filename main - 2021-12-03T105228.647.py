@@ -10,5 +10,6 @@ def countdown(time_sec):
 
     print("Time is Up! Thanks and please use again 😀")
     
-time2 = int(input("Enter a Number: "))
+print("Python Timer: ")
+time2 = int(input("Enter Seconds To Start Timer: "))
 countdown(time2)
